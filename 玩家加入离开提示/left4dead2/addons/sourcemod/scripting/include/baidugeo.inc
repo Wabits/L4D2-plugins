@@ -205,7 +205,6 @@ forward void BaiduGeo_OnLocationReceived(int client, const char[] ip,
  *                      - "Invalid IPv4 address": IP address format is invalid
  *                      - "Query queue limit reached": Query queue is full
  *                      - "API Key not set": API key not set
- *                      - "libcurl not available": libcurl functionality unavailable
  *                      - "Failed to init cURL": cURL initialization failed
  *                      - "Parse error": JSON parsing failed (API return format error)
  *                      - cURL error messages: Network request failed (timeout, DNS resolution failed, etc.)
